@@ -1,0 +1,27 @@
+{
+  "name": "@acme/gulpfile",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./src/gulpfile.js",
+  "scripts": {
+    "postinstall": "ts-patch install"
+  },
+  "dependencies": {
+    "del": "^6.1.1",
+    "gulp": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "make-dir": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.9",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "gulp-plumber": "^1.2.1",
+    "prettier": "2.8.8",
+    "ts-patch": "3.2.1",
+    "typescript": "5.0.4"
+  }
+}
